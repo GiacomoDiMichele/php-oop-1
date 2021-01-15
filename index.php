@@ -23,8 +23,8 @@ class Movies
 
 $batman_movie = new Movies('The dark knight', '2008');
 
-    echo $batman_movie-> getTitle();
-    echo $batman_movie-> getYear();
+    echo '<h1> -' . $batman_movie-> getTitle() . '</h1>';
+    echo '<h1>' .  $batman_movie-> getYear() . '</h1>';
 
 
 
@@ -32,8 +32,20 @@ $batman_movie = new Movies('The dark knight', '2008');
 $spiderman_movie = new Movies('Spiderman', '2005');
 
 
-    echo $spiderman_movie-> getTitle();
-    echo $spiderman_movie-> getYear();
+    echo '<div><h1> -' . $spiderman_movie-> getTitle() . '</h1></div>';
+    echo '<h1>' . $spiderman_movie-> getYear() . '</h1>';
 
 
  ?>
+
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+     <head>
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="style.css">
+         <title></title>
+     </head>
+     <body>
+
+     </body>
+ </html>
